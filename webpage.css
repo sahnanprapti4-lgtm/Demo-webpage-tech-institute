@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.headerlogo {
+    width: 300px;
+    display: flex;
+    align-items: center;
+  
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    color: aliceblue;
+    margin-top:60px ;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+}
+
+
+.links a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+}
+
+.link {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.link a {
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+    width: 100px;
+    height: 20px;
+    padding: 10px;
+}
+.web{
+    background-color: #bcf513;
+    border-radius: 10px;
+    text-align: center;
+    color: black !important;
+    padding: 10px 15px;
+
+  display: flex;
+  align-items: center;
+   margin-top: -5px;
+ }
+ .web:hover{
+    border:2px solid #bcf513;
+    background-color: black;
+    color: white !important;
+ }
+ .img{
+    display: flex;
+    align-items: end;
+ }
+.img img {
+    width: 600px;
+    /* height: 50px; */
+  
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.goal .goal {
+    color: gray;
+    font-size: 120px;
+}
+
+.goal h1 {
+    color:#1B2531 ;
+    font-size: 120px;
+}
+
+.logo h2 {
+    font-size: 100px;
+    font-family: "Roboto", serif;
+}
+
+.experience  P{
+    color: whitesmoke;
+    /* margin-top: 30px; */
+    text-decoration: underline  #bcf513 ;
+    font-size: 60px;
+    font-family: "Poppins", serif;;
+}
+.experience{
+    margin-top: 200px;
+}
+.experience h3{
+    font-weight: bold;
+    color: #dadcdf;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family:"Raleway", serif; ;
+}
+    .experience h4{
+        font-size: 15px;
+        font-family: "Pacifico", serif;
+    }
+    .experience a{
+        display: flex;
+        align-items: center;
+    
+    }
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 2000px;
+    gap: 100px;
+}
+
+.card {
+    background-color:#1B2531;
+    border: 10px solid #1B2531;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+.card h3 {
+    font-size: 29px;
+    color: rgb(110, 204, 16);
+    margin-bottom: 10px;
+    font-family: "KoHo", serif;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color:#4f6785;
+    font-family: popins;
+    padding: 30px;
+}
+
+.card a {
+    color:#B4F513;
+    text-decoration: none;
+    padding-left: 30px;
+
+}
